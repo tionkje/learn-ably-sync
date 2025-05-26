@@ -46,5 +46,9 @@
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "ably": "^2.9.0",
+    "mongodb": "^6.16.0"
   }
 }
