@@ -11,7 +11,7 @@ const channel = ably.channels.get('myDocuments');
 // console.log('channel', channel);
 
 // Subscribe to messages on the 'myDocuments' channel
-await channel.subscribe((message) => {
+channel.subscribe((message) => {
   console.log('Received a change event in realtime: ' , message.data)
 });
 
